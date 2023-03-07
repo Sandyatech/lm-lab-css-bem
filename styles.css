@@ -17,24 +17,33 @@
 }
 
 .card {
-
     padding: 10px;
     margin: 10px;
     width: 250px;
-
+    align-content: center;
 }
 
 .cardlighter {
     background: var(--light);
+   
 }
 
 .carddarker {
     background: var(--dark);
-    color:white;
+    color: white;
+  
+}
+
+.card--p2{
+    font-size: 2rem;
+}
+.card--p1{
+    font-size: 1.5rem;
 }
 
 img {
     width: 200px;
+    
 }
 
 
