@@ -1,7 +1,41 @@
 /* You can delete / re-write this img class  */
 
-img {
-    max-width: 200px;
+:root {
+    --coral: #F05D5E;
+    --teal: #0F7173;
+    --light: #E7ECEF;
+    --dark: #272932;
+    --camel: #D8A47F;
 }
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card {
+
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+
+}
+
+.cardlighter {
+    background: var(--light);
+}
+
+.carddarker {
+    background: var(--dark);
+    color:white;
+}
+
+img {
+    width: 200px;
+}
+
 
 /* Happy coding! */
